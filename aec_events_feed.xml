@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AEC Industry Events Feed</title>
+    <link>https://example.com/aec-events</link>
+    <description>Curated feed of Architecture, Engineering, and Construction industry events across the US, with Mid-Atlantic region highlights</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 22 Nov 2025 12:58:59 +0000</lastBuildDate>
+    <item>
+      <title>Concrete Construction Excellence Workshop</title>
+      <link>https://example.com/events/d75a5168</link>
+      <description>&lt;p&gt;Specialized training on decorative concrete, structural concrete design, and quality assurance testing. Includes plant tours and demonstrations of latest concrete placement techniques.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2026-04-17T12:58:21.610510&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Columbus, OH&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Workshop&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Construction, Engineering&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; $350&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CEU/PDH Credits:&lt;/strong&gt; Available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; American Concrete Institute&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/d75a5168"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/d75a5168</guid>
+      <category>Workshop</category>
+      <category>Construction, Engineering</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>National AIA Conference on Architecture</title>
+      <link>https://example.com/events/f9b2c89f</link>
+      <description>&lt;p&gt;The architecture profession's premier annual event featuring world-renowned speakers, extensive expo hall, and hundreds of educational sessions. Connect with 20,000+ attendees from around the globe.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2026-01-28T12:58:21.610495&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Chicago, IL&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Conference&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Architecture&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; $1,200&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CEU/PDH Credits:&lt;/strong&gt; Available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; American Institute of Architects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/f9b2c89f"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/f9b2c89f</guid>
+      <category>Conference</category>
+      <category>Architecture</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sustainable Building Practices Webinar</title>
+      <link>https://example.com/events/7808bcf5</link>
+      <description>&lt;p&gt;Online session exploring LEED certification, energy modeling, and sustainable materials selection. Perfect for professionals seeking to enhance their green building knowledge. Q&amp;A session with LEED APs included.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2025-12-12T12:58:21.610117&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Unknown, Unknown&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Webinar&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Architecture, Engineering, Construction&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; Free&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CEU/PDH Credits:&lt;/strong&gt; Available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; USGBC&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/7808bcf5"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/7808bcf5</guid>
+      <category>Webinar</category>
+      <category>Architecture, Engineering, Construction</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Residential Design Awards Gala</title>
+      <link>https://example.com/events/cbc0a307</link>
+      <description>&lt;p&gt;&lt;strong&gt;🌟 MID-ATLANTIC REGION EVENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Annual celebration recognizing excellence in residential architecture. View award-winning projects, meet the designers, and enjoy an evening of inspiration. Black-tie optional event with dinner and reception.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2026-05-07T12:58:21.610463&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Trenton, NJ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Networking&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Architecture&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; $175&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; AIA New Jersey&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/cbc0a307"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/cbc0a307</guid>
+      <category>Networking</category>
+      <category>Architecture</category>
+      <category>Mid-Atlantic</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Construction Safety Training Course</title>
+      <link>https://example.com/events/5f94c428</link>
+      <description>&lt;p&gt;&lt;strong&gt;🌟 MID-ATLANTIC REGION EVENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;OSHA-compliant safety training covering fall protection, scaffolding, electrical safety, and hazard communication. Mandatory for all site supervisors and project managers. Certificate provided upon completion.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2026-04-05T12:58:21.610139&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Wilmington, DE&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Workshop&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Construction&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; $225&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CEU/PDH Credits:&lt;/strong&gt; Available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; Delaware Safety Council&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/5f94c428"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/5f94c428</guid>
+      <category>Workshop</category>
+      <category>Construction</category>
+      <category>Mid-Atlantic</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Infrastructure Investment Summit</title>
+      <link>https://example.com/events/a213d00a</link>
+      <description>&lt;p&gt;&lt;strong&gt;🌟 MID-ATLANTIC REGION EVENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Explore funding opportunities and policy updates affecting infrastructure projects. Topics include transportation, water systems, and public facilities. Networking with government officials and industry leaders.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2026-03-28T12:58:21.610333&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Harrisburg, PA&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Conference&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Engineering, Construction&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; $275&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; ACEC Pennsylvania&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/a213d00a"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/a213d00a</guid>
+      <category>Conference</category>
+      <category>Engineering, Construction</category>
+      <category>Mid-Atlantic</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>MEP Systems Design Workshop</title>
+      <link>https://example.com/events/10b7bae2</link>
+      <description>&lt;p&gt;&lt;strong&gt;🌟 MID-ATLANTIC REGION EVENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Advanced training on mechanical, electrical, and plumbing systems coordination. Focus on energy-efficient HVAC design, electrical load calculations, and plumbing code compliance. Includes software demonstrations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2026-03-06T12:58:21.610351&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Arlington, VA&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Workshop&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Engineering&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; $325&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CEU/PDH Credits:&lt;/strong&gt; Available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; ASHRAE Northern Virginia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/10b7bae2"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/10b7bae2</guid>
+      <category>Workshop</category>
+      <category>Engineering</category>
+      <category>Mid-Atlantic</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Women in Construction Leadership Forum</title>
+      <link>https://example.com/events/909be2b6</link>
+      <description>&lt;p&gt;&lt;strong&gt;🌟 MID-ATLANTIC REGION EVENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Empowering women in the construction industry through leadership development, mentorship opportunities, and networking. Featured speakers share their experiences and strategies for career advancement.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2026-02-22T12:58:21.610437&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Baltimore, MD&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Conference&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Construction&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; $150&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; National Association of Women in Construction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/909be2b6"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/909be2b6</guid>
+      <category>Conference</category>
+      <category>Construction</category>
+      <category>Mid-Atlantic</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Design-Build Project Delivery Conference</title>
+      <link>https://example.com/events/beb6f1a2</link>
+      <description>&lt;p&gt;&lt;strong&gt;🌟 MID-ATLANTIC REGION EVENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Learn about integrated project delivery methods and design-build best practices. Case studies from successful projects, legal considerations, and team collaboration strategies. Panel discussions with industry experts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2026-02-05T12:58:21.610369&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Philadelphia, PA&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Conference&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Architecture, Engineering, Construction&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; $425&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CEU/PDH Credits:&lt;/strong&gt; Available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; Design-Build Institute of America&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/beb6f1a2"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/beb6f1a2</guid>
+      <category>Conference</category>
+      <category>Architecture, Engineering, Construction</category>
+      <category>Mid-Atlantic</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mid-Atlantic Construction Expo</title>
+      <link>https://example.com/events/543aa87f</link>
+      <description>&lt;p&gt;&lt;strong&gt;🌟 MID-ATLANTIC REGION EVENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The region's largest construction trade show featuring over 200 exhibitors showcasing the latest equipment, materials, and technologies. Live demonstrations, networking opportunities, and expert presentations on project management and safety.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2026-02-03T12:58:21.610013&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Baltimore, MD&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Trade Show&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Construction&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; Free&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; AGC of Maryland&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/543aa87f"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/543aa87f</guid>
+      <category>Trade Show</category>
+      <category>Construction</category>
+      <category>Mid-Atlantic</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>AIA Pennsylvania Annual Conference 2025</title>
+      <link>https://example.com/events/e75a979f</link>
+      <description>&lt;p&gt;&lt;strong&gt;🌟 MID-ATLANTIC REGION EVENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Join architects from across Pennsylvania for three days of continuing education, networking, and inspiration. Featured topics include sustainable design, adaptive reuse, and the future of urban planning. Earn up to 18 AIA learning units.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2026-01-28T12:58:21.604943&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Philadelphia, PA&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Conference&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Architecture&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; $450&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CEU/PDH Credits:&lt;/strong&gt; Available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; AIA Pennsylvania&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/e75a979f"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/e75a979f</guid>
+      <category>Conference</category>
+      <category>Architecture</category>
+      <category>Mid-Atlantic</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Commercial Construction Best Practices Seminar</title>
+      <link>https://example.com/events/b8114aad</link>
+      <description>&lt;p&gt;&lt;strong&gt;🌟 MID-ATLANTIC REGION EVENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Half-day seminar covering estimating, scheduling, and quality control for commercial construction projects. Real-world examples and practical tools you can implement immediately. Continental breakfast included.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2026-01-27T12:58:21.610479&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Wilmington, DE&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Workshop&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Construction&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; $195&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CEU/PDH Credits:&lt;/strong&gt; Available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; Associated General Contractors Delaware&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/b8114aad"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/b8114aad</guid>
+      <category>Workshop</category>
+      <category>Construction</category>
+      <category>Mid-Atlantic</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Construction Technology Innovation Expo</title>
+      <link>https://example.com/events/8b04e262</link>
+      <description>&lt;p&gt;&lt;strong&gt;🌟 MID-ATLANTIC REGION EVENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Discover the latest in construction technology including drones, 3D printing, robotics, and AI-powered project management tools. Live demonstrations and hands-on experiences with cutting-edge solutions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2026-01-24T12:58:21.610391&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Washington, DC&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Trade Show&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Construction&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; Free&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; Associated Builders and Contractors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/8b04e262"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/8b04e262</guid>
+      <category>Trade Show</category>
+      <category>Construction</category>
+      <category>Mid-Atlantic</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Young Architects Networking Mixer</title>
+      <link>https://example.com/events/fb47232c</link>
+      <description>&lt;p&gt;&lt;strong&gt;🌟 MID-ATLANTIC REGION EVENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Evening networking event for emerging professionals in the architecture and design fields. Connect with peers, discuss career development, and hear from established practitioners about their career paths.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2026-01-11T12:58:21.610159&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Newark, NJ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Networking&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Architecture&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; $35&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; AIA New Jersey&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/fb47232c"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/fb47232c</guid>
+      <category>Networking</category>
+      <category>Architecture</category>
+      <category>Mid-Atlantic</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Structural Engineering Summit</title>
+      <link>https://example.com/events/e7a23e07</link>
+      <description>&lt;p&gt;&lt;strong&gt;🌟 MID-ATLANTIC REGION EVENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Leading structural engineers discuss innovative solutions for complex projects. Topics include seismic design, high-rise construction, bridge engineering, and the use of advanced materials. CEUs available for PE license renewal.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2025-12-27T12:58:21.610095&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Pittsburgh, PA&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Conference&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Engineering&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; $380&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CEU/PDH Credits:&lt;/strong&gt; Available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; Structural Engineers Association of PA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/e7a23e07"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/e7a23e07</guid>
+      <category>Conference</category>
+      <category>Engineering</category>
+      <category>Mid-Atlantic</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Historic Preservation and Adaptive Reuse Tour</title>
+      <link>https://example.com/events/a2d8aa29</link>
+      <description>&lt;p&gt;&lt;strong&gt;🌟 MID-ATLANTIC REGION EVENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Guided tour of recently completed adaptive reuse projects in downtown Richmond. See firsthand how historic structures are being transformed while preserving their architectural heritage. Tours led by project architects.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2025-12-21T12:58:21.610241&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Richmond, VA&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Tour&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Architecture&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; $45&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CEU/PDH Credits:&lt;/strong&gt; Available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; Preservation Virginia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/a2d8aa29"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/a2d8aa29</guid>
+      <category>Tour</category>
+      <category>Architecture</category>
+      <category>Mid-Atlantic</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>BIM Implementation Workshop</title>
+      <link>https://example.com/events/adad5022</link>
+      <description>&lt;p&gt;&lt;strong&gt;🌟 MID-ATLANTIC REGION EVENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hands-on training for architects and engineers on Building Information Modeling best practices. Learn Revit workflows, clash detection, and collaboration tools. Includes practical exercises and case studies from recent projects.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2025-12-17T12:58:21.610070&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Washington, DC&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Workshop&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Architecture, Engineering&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost:&lt;/strong&gt; $295&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CEU/PDH Credits:&lt;/strong&gt; Available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer:&lt;/strong&gt; USGBC National Capital Region&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://example.com/events/adad5022"&gt;Register or Learn More&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://example.com/events/adad5022</guid>
+      <category>Workshop</category>
+      <category>Architecture, Engineering</category>
+      <category>Mid-Atlantic</category>
+      <pubDate>Sat, 22 Nov 2025 12:58:21 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

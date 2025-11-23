@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AEC Events Calendar</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f8f9fa;
+            line-height: 1.6;
+        }
+        
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px; 
+        }
+        
+        .header {
+            text-align: center;
+            padding: 30px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .filters {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        
+        .filter-group label {
+            font-size: 0.85em;
+            font-weight: 600;
+            color: #555;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        select, input {
+            padding: 10px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 14px;
+            background: white;
+            transition: all 0.3s;
+            min-width: 150px;
+        }
+        
+        select:focus, input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .search-box { 
+            flex: 1; 
+            min-width: 250px; 
+        }
+        
+        .stats {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .stat-card {
+            flex: 1;
+            min-width: 150px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        #eventsContainer {
+            display: grid;
+            gap: 15px;
+        }
+        
+        .event-card {
+            background: white;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+            border-left: 4px solid transparent;
+        }
+        
+        .event-card:hover { 
+            transform: translateY(-2px); 
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+        
+        .event-card.mid-atlantic { 
+            border-left-color: #ffc107;
+            background: linear-gradient(to right, #fffef5 0%, white 10%);
+        }
+        
+        .event-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            gap: 15px;
+        }
+        
+        .event-title { 
+            font-size: 1.4em; 
+            color: #2c3e50; 
+            margin: 0;
+            flex: 1;
+        }
+        
+        .badges {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .badge-type { background: #e3f2fd; color: #1976d2; }
+        .badge-location { background: #fff3cd; color: #856404; }
+        .badge-ceu { background: #e8f5e9; color: #388e3c; }
+        
+        .event-details {
+            color: #555;
+            margin: 15px 0;
+            line-height: 1.8;
+        }
+        
+        .event-details ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .event-details li {
+            padding: 5px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .event-details li:last-child {
+            border-bottom: none;
+        }
+        
+        .event-details strong {
+            color: #333;
+            display: inline-block;
+            min-width: 100px;
+        }
+        
+        .btn-register {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn-register:hover { 
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .no-events {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+        
+        .no-events-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+            opacity: 0.5;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 { font-size: 1.5em; }
+            .filters { flex-direction: column; }
+            .filter-group, select, input { width: 100%; }
+            .event-header { flex-direction: column; }
+            .event-title { font-size: 1.2em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏗️ AEC Industry Events</h1>
+            <p>Architecture • Engineering • Construction</p>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="totalEvents">0</div>
+                <div class="stat-label">Total Events</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="midAtlanticEvents">0</div>
+                <div class="stat-label">Mid-Atlantic</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="ceuEvents">0</div>
+                <div class="stat-label">With CEU Credits</div>
+            </div>
+        </div>
+        
+        <div class="filters">
+            <div class="filter-group">
+                <label for="typeFilter">Event Type</label>
+                <select id="typeFilter">
+                    <option value="all">All Types</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="regionFilter">Region</label>
+                <select id="regionFilter">
+                    <option value="all">All Regions</option>
+                    <option value="mid-atlantic">Mid-Atlantic Only</option>
+                    <option value="other">Other US</option>
+                </select>
+            </div>
+            <div class="filter-group search-box">
+                <label for="searchInput">Search</label>
+                <input type="text" id="searchInput" placeholder="🔍 Search events...">
+            </div>
+        </div>
+        
+        <div id="eventsContainer">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Loading events...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ============================================
+        // CONFIGURATION - CHANGE THIS URL!
+        // ============================================
+        const FEED_URL = 'https://YOUR-USERNAME.github.io/aec-events/aec_events_feed.xml';
+        // Replace with your actual RSS feed URL
+        // ============================================
+        
+        let allEvents = [];
+
+        async function loadEvents() {
+            try {
+                const response = await fetch(FEED_URL);
+                const text = await response.text();
+                const parser = new DOMParser();
+                const xml = parser.parseFromString(text, 'text/xml');
+                
+                const items = xml.querySelectorAll('item');
+                allEvents = Array.from(items).map(item => {
+                    const getElementText = (tag) => {
+                        const el = item.querySelector(tag);
+                        return el ? el.textContent : '';
+                    };
+                    
+                    const description = getElementText('description');
+                    const isMidAtlantic = description.includes('MID-ATLANTIC');
+                    const categories = Array.from(item.querySelectorAll('category')).map(c => c.textContent);
+                    
+                    return {
+                        title: getElementText('title'),
+                        link: getElementText('link'),
+                        description: description,
+                        isMidAtlantic: isMidAtlantic,
+                        eventType: categories[0] || 'Event',
+                        categories: categories
+                    };
+                });
+                
+                populateFilters();
+                updateStats();
+                displayEvents(allEvents);
+                
+            } catch (error) {
+                console.error('Error loading events:', error);
+                document.getElementById('eventsContainer').innerHTML = `
+                    <div class="no-events">
+                        <div class="no-events-icon">⚠️</div>
+                        <h3>Unable to load events</h3>
+                        <p>Please check your RSS feed URL and try again.</p>
+                        <p style="font-size:0.9em;color:#999;margin-top:10px;">Error: ${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        function populateFilters() {
+            const types = [...new Set(allEvents.map(e => e.eventType))].sort();
+            const sel = document.getElementById('typeFilter');
+            
+            types.forEach(t => {
+                const o = document.createElement('option');
+                o.value = t;
+                o.textContent = t;
+                sel.appendChild(o);
+            });
+        }
+        
+        function updateStats() {
+            document.getElementById('totalEvents').textContent = allEvents.length;
+            document.getElementById('midAtlanticEvents').textContent = 
+                allEvents.filter(e => e.isMidAtlantic).length;
+            document.getElementById('ceuEvents').textContent = 
+                allEvents.filter(e => e.description.includes('CEU')).length;
+        }
+
+        function displayEvents(events) {
+            const container = document.getElementById('eventsContainer');
+            
+            if (!events.length) {
+                container.innerHTML = `
+                    <div class="no-events">
+                        <div class="no-events-icon">📅</div>
+                        <h3>No events found</h3>
+                        <p>Try adjusting your filters</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            container.innerHTML = events.map(e => {
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = e.description;
+                
+                const details = tempDiv.querySelector('ul');
+                const detailsHtml = details ? details.innerHTML : '';
+                
+                const hasCEU = e.description.includes('CEU');
+                
+                return `
+                    <div class="event-card ${e.isMidAtlantic ? 'mid-atlantic' : ''}">
+                        <div class="event-header">
+                            <h2 class="event-title">${e.title}</h2>
+                            <div class="badges">
+                                <span class="badge badge-type">${e.eventType}</span>
+                                ${e.isMidAtlantic ? '<span class="badge badge-location">🌟 Mid-Atlantic</span>' : ''}
+                                ${hasCEU ? '<span class="badge badge-ceu">CEU Available</span>' : ''}
+                            </div>
+                        </div>
+                        <div class="event-details">
+                            <ul>${detailsHtml}</ul>
+                        </div>
+                        <a href="${e.link}" class="btn-register" target="_blank" rel="noopener">
+                            Register or Learn More →
+                        </a>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function filterEvents() {
+            const type = document.getElementById('typeFilter').value;
+            const region = document.getElementById('regionFilter').value;
+            const search = document.getElementById('searchInput').value.toLowerCase();
+            
+            let filtered = allEvents;
+            
+            if (type !== 'all') {
+                filtered = filtered.filter(e => e.eventType === type);
+            }
+            
+            if (region === 'mid-atlantic') {
+                filtered = filtered.filter(e => e.isMidAtlantic);
+            } else if (region === 'other') {
+                filtered = filtered.filter(e => !e.isMidAtlantic);
+            }
+            
+            if (search) {
+                filtered = filtered.filter(e => 
+                    e.title.toLowerCase().includes(search) || 
+                    e.description.toLowerCase().includes(search)
+                );
+            }
+            
+            displayEvents(filtered);
+        }
+
+        // Event listeners
+        document.getElementById('typeFilter').addEventListener('change', filterEvents);
+        document.getElementById('regionFilter').addEventListener('change', filterEvents);
+        document.getElementById('searchInput').addEventListener('input', filterEvents);
+
+        // Load events on page load
+        loadEvents();
+    </script>
+</body>
+</html>
